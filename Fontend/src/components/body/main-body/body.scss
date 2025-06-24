@@ -1,0 +1,231 @@
+.container-search {
+  .search {
+    box-shadow: 0 0 10px rgba(138, 123, 123, 0.3);
+    height: 96px;
+    border: 2px solid #0396FF;
+    border-radius: 16px;
+    padding: 25px 20px;
+    margin-top: -48px;
+    position: relative;
+    background: #fff;
+    top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .search-icon {
+      position: relative;
+      font-size: 25px;
+      margin-right: -40px;
+      top: 2px;
+    }
+
+    input {
+      height: 50px;
+      width: 900px;
+      outline: none;
+      border: 1px solid #0396FF;
+      padding: 5px 45px;
+      border-radius: 25px;
+      font-size: 14px;
+      box-shadow: 0px 1px 2px 0px #0108280d;
+    }
+
+    .button-submit {
+      margin-left: 20px;
+      height: 50px;
+      width: 150px;
+      border: none;
+      background: #0396FF;
+      color: #fff;
+      border-radius: 25px;
+
+      &:hover {
+        color: #0396FF;
+        background: #E6F4FF;
+        transition: 0.75s;
+      }
+    }
+  }
+}
+
+.session-one {
+  background: #f2faff;
+  border-bottom: 1px solid #0396FF;
+  border-top: 1px solid #0396FF;
+  margin-bottom: 80px;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+
+  &__body {
+    width: 1240px;
+  }
+
+  &__title {
+    text-align: center;
+    color: #212633;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 60px;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--cart {
+      display: flex;
+      justify-content: center;
+
+      img {
+        margin-right: 25px;
+      }
+
+      &-title {
+        font-weight: 600;
+        font-size: 20px;
+      }
+
+      &-content {
+        font-size: 14px;
+        color: #76809B;
+        width: 260px;
+      }
+    }
+  }
+}
+
+.session-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 90px;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 30px;
+
+    &-head {
+      font-size: 32px;
+      font-weight: 600;
+    }
+
+    &-desc {
+      font-size: 14px;
+      color: #76809B;
+    }
+  }
+
+  &__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-cart {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+
+    &-head {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &--number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        font-weight: 700;
+        color: #0396FF;
+        background: #E6F4FF;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+
+      img {
+        margin: 0 0 20px 0;
+      }
+    }
+
+    &-content {
+      &-title {
+        color: #212633;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 5px;
+        text-align: center;
+      }
+
+      &-desc {
+        margin-bottom: 0;
+        color: #76809B;
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.session-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__left {
+    &-about {
+      &-ques {
+        font-size: 20px;
+        font-weight: 700;
+        color: #0396FF;
+        margin-bottom: 5px;
+      }
+
+      &-head {
+        color: #212633;
+        line-height: 40px;
+        font-weight: 700;
+        font-size: 32px;
+        margin-bottom: 20px;
+      }
+
+      &-desc {
+        color: #76809B;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        margin-bottom: 30px;
+      }
+
+      &-tick{
+        display: flex;
+        align-items: center;
+
+        span{
+          background: #E6F4FF;
+          border-radius: 50%;
+          margin: 10px 20px 10px 0;
+        }
+        .icon-tick{
+          width: 40px;
+          height: 40px;
+          color: #0396FF;
+          background: #E6F4FF; 
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}

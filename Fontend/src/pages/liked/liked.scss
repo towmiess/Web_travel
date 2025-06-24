@@ -1,0 +1,81 @@
+.minheight-liked {
+  min-height: 100vh;
+  .liked-tour-top {
+    margin-top: 20px;
+  }
+
+  .liked-tour-bottom {
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    a {
+      text-decoration: none;
+    }
+
+    &__card {
+      display: flex;
+      justify-content: center;
+      border: 2px solid #E2E6F2;
+      border-radius: 16px;
+      padding: 15px;
+      margin-bottom: 25px;
+
+      &:hover {
+        border: 2px solid #0396FF;
+        transition: all ease-in-out .2s;
+
+        img {
+          transform: scale(1.1);
+          transition: all ease-in-out .2s;
+        }
+
+      }
+
+      &-img {
+        width: 280px;
+        overflow: hidden;
+        height: 165px;
+        display: flex;
+        margin-right: 20px;
+        border-radius: 10px;
+
+        img {
+          width: 280px;
+          height: auto;
+          aspect-ratio: 16/9;
+          object-fit: cover;
+          border-radius: 10px;
+          transition: all ease-in-out .2s;
+
+          &:hover {
+            transform: scale(1.1);
+            transition: all ease-in-out .2s;
+          }
+        }
+      }
+
+      &-contentleft {
+        flex: 1;
+        height: 165px;
+        padding-top: 8px;
+      }
+
+      &-leftsale {
+        position: relative;
+        bottom: 155px;
+        right: 295px;
+        background-image: url("../../images/background-smart.webp");
+        height: 24px;
+        width: 50px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        font-size: 12px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+      }
+    }
+  }
+}

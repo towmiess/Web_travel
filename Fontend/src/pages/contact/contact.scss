@@ -1,0 +1,69 @@
+.contact-top {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+
+  &-title {
+    color: #212633;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  &-desc {
+    color: #76809B;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0;
+    line-height: 20px;
+  }
+}
+
+.contact-middle {
+  margin-bottom: 60px;
+  border-radius: 12px;
+  padding: 30px;
+  border: 1px solid #f1f1f1;
+  text-align: center;
+  background: #fdfdfd;
+
+  &-icon {
+    color: #0396FF;
+    font-size: 60px;
+  }
+
+  &-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #212633;
+    margin-bottom: 8px;
+  }
+
+  &-desc {
+    font-size: 14px;
+    color: #777777;
+  }
+
+}
+
+.sendinfor-map {
+  .form-send-infor {
+    .btn-send-infor {
+      background: #0396FF;
+      height: 40px;
+      border-radius: 8px;
+      padding: 0 20px;
+      font-size: 14px;
+      border: 1px solid transparent;
+      color: #fff; 
+      transition: all ease-in-out .2s;
+
+      &:hover{
+        background: #fff;
+        color: #0396FF;
+        border: 1px solid #0396FF;
+        transition: all ease-in-out .2s;
+      }
+    }
+  }
+}

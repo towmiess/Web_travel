@@ -1,0 +1,73 @@
+.session-four {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 0 60px 0;
+
+  &__content {
+    width: 475px;
+    margin-right: 120px;
+
+    &-ques {
+      color: #0396FF;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+    &-title {
+      color: #212633;
+      line-height: 40px;
+      font-weight: 700;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    &-desc {
+      color: #76809B;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__activity {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &-form {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    &-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      img {
+        margin-bottom: 20px;
+      }
+
+      &-desc {
+        width: 140px;
+        height: 35px;
+        text-align: center;
+        border-radius: 16px;
+        background: #E6F4FF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+}

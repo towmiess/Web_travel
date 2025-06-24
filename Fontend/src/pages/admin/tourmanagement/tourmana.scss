@@ -1,0 +1,292 @@
+.tourmanage__top {
+  margin: 30px 40px 30px 40px;
+  display: flex;
+  justify-content: space-between;
+
+  &-title {
+    color: #212633;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  &-insert {
+    color: #212633;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-right: 5px;
+
+    }
+
+    &:hover {
+      color: #0396FF;
+      cursor: pointer;
+    }
+  }
+}
+
+.black-bg {
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #00000057;
+  top: 0;
+  left: 0;
+}
+
+.show-model {
+  z-index: 1000;
+  padding: 20px;
+  width: 800px;
+  height: 475px;
+  position: fixed;
+  top: 150px;
+  left: 350px;
+  background: #E6F4FF;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+  .tour-cate {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    .tour {
+      margin-right: 20px;
+
+      label {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      .input-tour-title {
+        width: 370px;
+      }
+    }
+
+    .cate {
+      label {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      .select-cate {
+        width: 370px;
+      }
+    }
+  }
+
+  .img-price {
+    display: flex;
+    margin-bottom: 10px;
+
+    .up-image {
+      width: 370px;
+      margin-left: 20px;
+
+      label {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      .input-img {
+        width: 370px;
+      }
+
+    }
+
+    .price {
+      label {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      .input-price {
+        width: 370px;
+      }
+    }
+  }
+
+  .activity {
+    margin-bottom: 10px;
+
+    label {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+  }
+
+  .time-place {
+    display: flex;
+    margin-bottom: 10px;
+
+    .place {
+      margin-right: 20px;
+
+      label {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      .input-place {
+        width: 370px;
+      }
+    }
+
+    .time {
+      label {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      .input-time {
+        width: 370px;
+      }
+    }
+  }
+
+  .dis-time-quan {
+    display: flex;
+
+    .discount {
+      label {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      .input-discount {
+        width: 240px;
+      }
+    }
+
+    .time-start {
+      margin: 0 20px 0 20px;
+
+      label {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      .time-start-input {
+        width: 240px;
+      }
+    }
+
+    .quantity {
+      margin-bottom: 20px;
+
+      label {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      .quantity-input {
+        width: 240px;
+      }
+    }
+  }
+
+  .status {
+    margin-bottom: 10px;
+
+    label {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      margin-right: 50px;
+    }
+  }
+
+  .btn-insert-tour {
+    width: 200px;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    background: #0396FF;
+    color: #fff;
+    margin-left: 280px;
+    transition: all ease-in-out .2s;
+
+    &:hover {
+      border: 1px solid #0396FF;
+      color: #0396FF;
+      background: #fff;
+      transition: all ease-in-out .2s;
+
+    }
+  }
+}
+
+.tourmanage__bottom {
+  padding: 25px;
+  border: 1px solid #ddd;
+  margin: 0 0 50px 0;
+
+  table {
+    .active {
+      background: green;
+      color: #fff;
+      font-size: 12px;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
+    .inactive{
+      background: #6f42c1;
+      color: #fff;
+      font-size: 12px;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
+    .edit {
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      background: rgb(234, 205, 75);
+      color: #fff;
+      border-radius: 3px;
+      padding: 0 3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+
+      &:hover {
+        background: rgba(234, 205, 75, 0.727);
+      }
+    }
+
+    .delete {
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      background: rgb(196, 10, 10);
+      color: #fff;
+      border-radius: 3px;
+      padding: 0 3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      margin-left: 10px;
+      border: none;
+
+      &:hover {
+        background: rgba(196, 10, 10, 0.566);
+      }
+    }
+  }
+}

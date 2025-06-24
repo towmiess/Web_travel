@@ -1,0 +1,81 @@
+.about-contain {
+  color: #212529;
+
+  .content-top-title {
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .images {
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+
+  .content-bottom-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .content-bottom-dessc {
+    color: #76809B;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+
+  .about-card {
+    padding: 30px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    border-radius: 20px;
+    height: 220px;
+    margin-bottom: 25px;
+    &-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+
+      &-icon {
+        font-size: 20px;
+        margin-right: 10px;
+      }
+
+      &-title {
+        font-size: 16px;
+        font-weight: 700;
+
+      }
+    }
+
+    &-desc {
+      font-size: 14px;
+      color: #212529;
+      text-align: justify;
+    }
+  }
+
+  ul li{
+    color: #76809B;
+  }
+
+  .about-contact-card{
+    padding: 30px;
+     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+     border-radius: 30px;
+     margin-bottom: 90px;
+    &-item{
+      margin-bottom: 20px;
+
+      &-title{
+        font-size: 16px;
+        font-weight: 700;
+        color: #212529;
+      }
+
+      &-desc{
+        font-size: 14px;
+        color: #76809B;
+      }
+    }
+  }
+}

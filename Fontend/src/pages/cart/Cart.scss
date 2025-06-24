@@ -1,0 +1,43 @@
+table {
+  tbody {
+    font-size: 18px;
+  }
+}
+
+.infor-use {
+  display: flex;
+  justify-content: space-between;
+  .form {
+    .description{
+      font-size: 20px;
+      text-align: justify;
+      font-weight: 600;
+    }
+    .form-group {
+      width: 500px;
+
+      label {
+        margin-bottom: 5px;
+      }
+
+      input {
+        margin-bottom: 10px;
+      }
+
+      textarea {
+        margin-bottom: 10px;
+      }
+
+      .btn-order {
+        border: none;
+        background: #0396FF;
+        color: #fff;
+        padding: 7px 15px;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 200px;
+      }
+    }
+  }
+}

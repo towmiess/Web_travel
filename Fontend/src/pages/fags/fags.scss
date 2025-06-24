@@ -1,0 +1,27 @@
+.minheight-fags {
+  min-height: 100vh;
+
+  .ant-collapse {
+    background-color: #fff;
+    .ant-collapse-item {
+      border: none;
+
+      .ant-collapse-header {
+        color: #0396FF;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 10px 20px;
+      }
+
+      .ant-collapse-content {
+        text-align: justify;
+
+        .desc {
+          color: #76809B;
+          font-size: 16px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}

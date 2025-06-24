@@ -1,0 +1,190 @@
+.detail-top {
+  margin-bottom: 30px;
+
+  &__title {
+    margin-top: 35px;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  &__menu {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+
+    &-item {
+      display: flex;
+      align-items: center;
+
+      &-icon {
+        padding: 7.5px;
+        background: #E6F4FF;
+        border-radius: 16px;
+        margin-right: 10px;
+
+        .icon {
+          font-size: 30px;
+          color: #0396FF;
+        }
+      }
+
+      &-content {
+        &-title {
+          font-size: 14px;
+          color: #76809B;
+          font-weight: 300;
+        }
+
+        &-desc {
+          font-size: 14px;
+          color: #0396FF;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+.detail-middle {
+  display: flex;
+
+  &-img {
+    margin-right: 30px;
+
+    img {
+      width: 800px;
+      height: auto;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+  }
+
+  &-right {
+    background: #E6F4FF;
+    border-radius: 16px;
+    padding: 15px;
+    flex: 1;
+
+    &-title {
+      font-size: 30px;
+      color: #0396FF;
+      margin-bottom: 10px;
+    }
+
+    &-code {
+      font-size: 14px;
+      font-weight: 700;
+      color: #212633;
+      border-bottom: 1px solid #DDD;
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+
+      span {
+        font-weight: 400;
+      }
+    }
+
+    &-date {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+
+      &-icon {
+        width: 45px;
+        height: 45px;
+        border-radius: 16px;
+        background: #0396FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+
+        .icon-date {
+          font-size: 26px;
+          color: #fff;
+        }
+      }
+
+      .input-date {
+        width: 385px;
+        height: 45px;
+        border-radius: 12px;
+      }
+    }
+
+    .customer-option {
+      font-size: 14px;
+      font-weight: 700;
+      color: #212633;
+      margin-bottom: 15px;
+    }
+
+    &-quantity {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+
+      .input-label {
+        width: 75px;
+      }
+
+      .input-number {
+        width: 100px;
+        height: 35px;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 8px;
+        padding: 2px;
+        border: 1px solid #0396FF;
+      }
+
+      .price {
+        color: #0396FF;
+      }
+    }
+    &-total{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      &-title{
+        font-size: 14px;
+      }
+      span{
+        font-size: 20px;
+        font-weight: 700;
+        color: #0396FF;
+      }
+    }
+    
+    .button-submit-form{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+    &-button{
+      width: 175px;
+      height: 40px;
+      align-items: center;
+      border: none;
+      background: #0396FF;
+      color: #fff;
+      border-radius: 8px;
+      transition: all ease-in-out .2s;
+      
+      &:hover{
+        background: #fff;
+        border: 1px solid #0396FF;
+        color: #0396FF;
+        transition: all ease-in-out .2s;
+      }
+    }
+  }
+}
